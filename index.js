@@ -1,12 +1,12 @@
-var cart = [];
+var cart = ["bananas"];
 
-function getCart() {
- return cart;
+function getCart(bananas) {
+ return cart; 17
 }
 
 function setCart(c) {
   cart = c;
-  return cart;
+  return cart
 }
 
 function addToCart(item) {
